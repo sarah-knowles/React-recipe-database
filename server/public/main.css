@@ -49,6 +49,7 @@ body {
   footer {
     font-size: .95rem;
     margin: 25px;
+    margin-left: 45px;
   }
   
   .link {
@@ -157,3 +158,44 @@ body {
      color: #707070;
   }
   /* Star ratings style ends */
+
+
+  /* Search styles start */
+
+  .search {
+    border-color: #bedbbb;
+    border-radius: 8px;
+    margin-left:20%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 8px;
+    width: 200px;
+  }
+
+  .search-title {
+    font-size: 1.25rem;
+    margin-top: 25px;
+  }
+
+  /* Search styles end */
+
+  
+  /* Contact form styles start */
+
+  .contactForm {
+    font-size: 1.25rem;
+    margin-left:20%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 200px;
+  }
+
+  textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 400px;
+    overflow: none;
+  }
+
+  /* Contact form styles end */
