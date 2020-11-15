@@ -88,7 +88,7 @@ body {
   }
   
   /* List styles start */
-  ul {
+  .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -97,12 +97,12 @@ body {
     background-color: #d6e8d4;
   }
   
-  li {
+  .menu-item {
     float: right;
     padding-left: 15px;
   }
   
-  li a {
+  .menu-item a {
     display: block;
     color: #666;
     text-align: center;
@@ -110,11 +110,11 @@ body {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  .menu-item a:hover:not(.active) {
     background-color: #ddd;
   }
   
-  li a.active {
+  .menu-item a.active {
     color: #e2dedc;
     background-color: #707070;
   }
@@ -125,6 +125,8 @@ body {
     margin: 10px;
     text-align: left;
   }
+
+  
   /* List styles end */
   
   
@@ -134,30 +136,6 @@ body {
     margin: 55px;
   }
   
-  
-  /* Star ratings style starts */
-  .rating {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-  }
-  .rating > span {
-    display: inline-block;
-    position: relative;
-    width: 1.1em;
-  }
-  
-  .rating > span:hover,
-  .rating > span:hover ~ span {
-    color: transparent;
-  }
-  
-  .rating > span:hover:before,
-  .rating > span:hover ~ span:before {
-     content: "\2605";
-     position: absolute;
-     color: #707070;
-  }
-  /* Star ratings style ends */
 
 
   /* Search styles start */
