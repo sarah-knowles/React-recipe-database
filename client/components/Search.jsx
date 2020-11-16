@@ -3,7 +3,7 @@ import React from 'react'
 class Search extends React.Component {
 
   handleClick = (e) => {
-  //  getrecipes
+    
   }
 
   render() {

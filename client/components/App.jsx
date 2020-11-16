@@ -14,6 +14,7 @@ import Drinks from './Drinks'
 
 
 class App extends React.Component {
+
   render() {
     return (
       <div>
@@ -27,10 +28,6 @@ class App extends React.Component {
         <Route path='/Desserts' component={Desserts}/>
         <Route path='/Drinks' component={Drinks}/>
         <Route path='/Recipe' component={Recipe}/>
-
-        
-
-
 
      
     </Router>
