@@ -1,5 +1,4 @@
 import React from 'react'
-import Recipe from './recipe'
 
 
 class MeatDishes extends React.Component {
@@ -16,9 +15,11 @@ class MeatDishes extends React.Component {
                    
                     <li class='recipe-list-li'><a class='recipe-li' href='https://www.edamam.com/recipe/beef-stroganoff-97ab114a9703ca3ed407f05158878881/beef'>Beef Stroganoff</a></li>
                     
-                    <li class='recipe-list-li'><a class='recipe-li' href='https://www.epicurious.com/recipes/food/views/rosemary-pesto-lamb-rack-105169'>Rosemary-Pesto Lamb Rack</a></li>
+                    <li class='recipe-list-li'><a class='recipe-li' href='#/10103'>Hungarian Goulash</a></li>
                    
-                    <li class='recipe-list-li'><a class='recipe-li' href=''></a></li>
+                    <li class='recipe-list-li'><a class='recipe-li' href='#/10102'>Lamb Cutlets</a></li>
+                    
+                    <li class='recipe-list-li'><a class='recipe-li' href='#/10101'>Best Meatloaf</a></li>
 
 
 

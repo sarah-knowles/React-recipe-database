@@ -4,13 +4,13 @@ import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Search from './Search'
-import Recipe from './Recipe'
+import DisplayRecipe from './Recipe'
 import MeatDishes from './MeatDishes'
 import PastaDishes from './PastaDishes'
 import Desserts from './Desserts'
 import Drinks from './Drinks'
 
-
+import id from '../../data/recipes' 
 
 
 class App extends React.Component {
@@ -19,6 +19,7 @@ class App extends React.Component {
     return (
       <div>
       <Router>
+        <Route path='/:id' component={DisplayRecipe}/>
         <Route exact path='/' component={Home} />
         <Route path='/About' component={About}/>
         <Route path='/Contact' component={Contact}/>
@@ -27,7 +28,8 @@ class App extends React.Component {
         <Route path='/PastaDishes' component={PastaDishes}/>
         <Route path='/Desserts' component={Desserts}/>
         <Route path='/Drinks' component={Drinks}/>
-        <Route path='/Recipe' component={Recipe}/>
+        
+        
 
      
     </Router>

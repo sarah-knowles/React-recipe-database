@@ -10,7 +10,7 @@ class Home extends React.Component {
             <a href="#/MeatDishes">
               <div class="frame">
                 <img class="image" src="images/meatloaf.jpg" />
-                <div class="caption"><a class="link" href="meat.html">Meat Dishes</a>
+                <div class="caption"><a class="link" href="#/MeatDishes">Meat Dishes</a>
                 </div>
               </div>
             </a>
@@ -19,7 +19,7 @@ class Home extends React.Component {
             <a href="#/PastaDishes">
               <div class="frame">
                 <img class="image" src="images/spaghetti.jpg" />
-                <div class="caption"><a class="link" href="pasta.html">Pasta</a>
+                <div class="caption"><a class="link" href="#/PastaDishes">Pasta</a>
                 </div>
               </div>
             </a>
@@ -28,7 +28,7 @@ class Home extends React.Component {
             <a href="#/Desserts">
               <div class="frame">
                 <img class="image" src="/images/cheesecake.jpg" />
-                <div class="caption"><a class="link" href="desserts.html">Desserts</a>
+                <div class="caption"><a class="link" href="#/Desserts">Desserts</a>
                 </div>
               </div>
             </a>
@@ -37,7 +37,7 @@ class Home extends React.Component {
             <a href="#/Drinks">
               <div class="frame">
                 <img class="image" src="images/drinks.jpg" />
-                <div class="caption"><a class="link" href="drinks.html">Drinks</a>
+                <div class="caption"><a class="link" href="#/Drinks">Drinks</a>
                 </div>
               </div>
             </a>
