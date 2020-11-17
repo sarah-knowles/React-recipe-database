@@ -4,9 +4,7 @@ import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Search from './Search'
-import DisplayMeatRecipe from './DisplayRecipe'
-import DisplayDrinkRecipe from './DisplayDrinkRecipe'
-import DisplayDessertRecipe from './DisplayDessertRecipe'
+import DisplayRecipe from './DisplayRecipe'
 import MeatDishes from './MeatDishes'
 import PastaDishes from './PastaDishes'
 import Desserts from './Desserts'
@@ -25,13 +23,11 @@ class App extends React.Component {
         <Route path='/Contact' component={Contact}/>
         <Route path='/Search' component={Search}/>
         <Route exact path='/MeatDishes' component={MeatDishes}/>
-        <Route path='/MeatDishes/:id' component={DisplayMeatRecipe}/>
+        <Route path='/DisplayRecipe/:id' component={DisplayRecipe}/>
         <Route path='/PastaDishes' component={PastaDishes}/>
         <Route exact path='/Desserts' component={Desserts}/>
-        <Route path='/Desserts/:id' component={DisplayDessertRecipe}/>
         <Route exact path='/Drinks' component={Drinks}/>
-        <Route path='/Drinks/:id' component={DisplayDrinkRecipe}/>
-        
+       
       
     
     </div>

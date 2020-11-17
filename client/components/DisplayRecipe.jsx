@@ -2,19 +2,20 @@ import React from 'react'
 import recipedata from '../../Data/recipes'
 
 
-class DisplayMeatRecipe extends React.Component {
-  
+class DisplayRecipe extends React.Component {
  
  findRecipe (id) {
-  let activeRecipe = recipedata.meat.find(el => el.id == id) 
-  return(activeRecipe)
+  let active = recipedata.find(el => el.id == id) 
+  console.log(recipedata)
+  console.log(active)
+  return(active)
+ 
 }
 
 
    render () {
    
-   var currentrecipe =  this.findRecipe(10101) 
-     console.log(currentrecipe)
+   let currentrecipe = this.findRecipe(10103) 
     
      return (
     <div>
@@ -31,4 +32,4 @@ class DisplayMeatRecipe extends React.Component {
 }
 
 
-export default DisplayMeatRecipe
+export default DisplayRecipe

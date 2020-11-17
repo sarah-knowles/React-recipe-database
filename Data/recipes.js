@@ -1,5 +1,4 @@
-export default {
-  meat: [
+export default  [
     {
     id: 10101,
     title: 'Best Meatloaf',
@@ -22,7 +21,7 @@ export default {
     subtitle: 'Great winter dinner',
     image: '/images/Goulash.jpg',
     ingredients: ['⅓ cup vegetable oil', '3 onions, sliced', '2 tablespoons Hungarian sweet paprika', '2 teaspoons salt', '½ teaspoon ground black pepper', '3 pounds beef stew meat, cut into 1 1/2 inch cubes', '1 can tomato paste', '1 ½ cups water', '1 clove garlic, minced', '1 teaspoon salt'],
-    instructions: 'Heat oil in a large pot or Dutch oven over medium heat. Cook onions in oil until soft, stirring frequently. Remove onions and set aside. In a medium bowl, combine paprika, 2 teaspoons salt and pepper. Coat beef cubes in spice mixture, and cook in onion pot until brown on all sides. Return the onions to the pot, and pour in tomato paste, water, garlic and the remaining 1 teaspoon salt. Reduce heat to low, cover and simmer, stirring occasionally, 1 1/2 to 2 hours, or until meat is tender. Serve hot with sour cream.'
+    instructions: 'Heat oil in a large pot over medium heat. Cook onions in oil until soft, stirring frequently. Remove onions and set aside. In a medium bowl, combine paprika, 2 teaspoons salt and pepper. Coat beef cubes in spice mixture, and cook in onion pot until brown on all sides. Return the onions to the pot, and pour in tomato paste, water, garlic and the remaining 1 teaspoon salt. Reduce heat to low, cover and simmer, stirring occasionally, 1 1/2 to 2 hours, or until meat is tender. Serve hot with sour cream.'
     },
     {
     id: 10104,
@@ -47,9 +46,7 @@ export default {
     image: '/images/lamb-chops.jpg',
     ingredients:['3 large shallots, minced', '6 tablespoons chopped fresh mint', '6 tablespoons chopped fresh oregano', '6 large garlic cloves, minced', '1 tablespoon sugar', '24 lamb rib chops', '6 tablespoons extra-virgin olive oil', '3 tablespoons fresh lemon juice', '1 tablespoon finely grated lemon peel', 'Fresh oregano sprigs (for garnish)'],
     instructions:'Mix minced shallots, chopped mint, chopped oregano, minced garlic, sugar, and 1 tablespoon salt in small bowl. Press 1 rounded teaspoon shallot-herb mixture onto eye of each lamb chop. Turn chops over onto large rimmed baking sheet. Press remaining shallot- herb mixture onto eye of each chop. Cover lamb chops with sheet of plastic wrap and refrigerate overnight.Whisk olive oil, lemon juice, and lemon peel in small bowl until slightly thickened and well blended. Season lightly with salt and generously with freshly ground black pepper. Spoon oil mixture lightly over chops. Turn chops over and spoon remaining oil mixture over. Let stand at room temperature 1 hour.Prepare barbecue (medium-high heat). Grill lamb chops to desired doneness, about 3 minutes per side for medium-rare. Transfer lamb chops to platter. Garnish with fresh oregano sprigs and serve.'
-    }  
-  ],
-  pasta: [
+    },
     {
     id: 10201,
     title: 'Fetticine Carbonara',
@@ -97,9 +94,7 @@ export default {
     image: '',
     ingredients:[],
     instructions:''
-    }
-  ],
-  dessert: [
+    },
     {
     id: 10301,
     title: 'Bailey\'s Cheesecake',
@@ -143,9 +138,7 @@ export default {
      subtitle: '',
     image: '',
     instructions:''
-    }  
-  ],
-  drinks: [
+    },
     {
     id: 10401,
     title: 'Shirley Temple',
@@ -194,5 +187,4 @@ export default {
     ingredients: ['small bunch coriander leaves', 'juice 1 lime', '750ml pineapple juice', 'a handful of ice', '400ml tonic water'],
     instructions:'Chop the coriander leaves and place in a cocktail shaker with the lime juice, 100ml pineapple juice and a handful of ice. Shake together until the outside of the shaker feels cold. Strain into the glasses, add extra ice cubes and divide 650ml pineapple juice and the tonic water between the glasses.'
     }
-  ]
-}
+]
