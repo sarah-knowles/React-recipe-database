@@ -18,11 +18,9 @@ class MeatDishes extends React.Component {
                    
                     <li class='recipe-list-li'><a class='recipe-li' href='#/DisplayRecipe/10102'>Lamb Cutlets</a></li>
                     
-                    <li class='recipe-list-li'><a class='recipe-li' href='#/DisplayRecipe/10101'>Best Meatloaf</a></li>
-
-
-
-
+                    <li class=' recipe-list-li'><a class='recipe-li' href='#/DisplayRecipe/10101'>Best Meatloaf</a></li>
+                    
+                    <li class=' recipe-list-li'><a class='recipe-li' href='#/DisplayRecipe/10107'>Porc au Cassis</a></li>
 
                 </ul>
             </div>

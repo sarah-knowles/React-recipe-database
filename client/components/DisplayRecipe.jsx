@@ -6,8 +6,6 @@ class DisplayRecipe extends React.Component {
  
  findRecipe (id) {
   let active = recipedata.find(el => el.id == id) 
-  console.log(recipedata)
-  console.log(active)
   return(active)
  
 }
@@ -15,7 +13,7 @@ class DisplayRecipe extends React.Component {
 
    render () {
    
-   let currentrecipe = this.findRecipe(10103) 
+   let currentrecipe = this.findRecipe(this.props.match.params.id) 
     
      return (
     <div>

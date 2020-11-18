@@ -32,6 +32,14 @@ export default  [
     instructions: 'Cut the beef tenderloin across into 3in (7.5cm) pieces, then cut each piece against the grain into slices about 3in (7.5cm) square and 1in (2.5cm) thick. Lay the slices flat and cut the squares into 3 by 1in (7.5 by 2.5cm) strips. Heat the oil and half of the butter in a large frying pan over medium-high heat and fry the onions until translucent. Add the mushrooms and fry until they begin to soften, 2-3 minutes. Remove the onions and mushrooms from the pan with a slotted spoon. Add the rest of the butter to the pan and heat until beginning to foam. Add the steak and sauté quickly over a high heat until browned on all sides, 3-4 minutes. Return the onions and mushrooms to the pan, and stir and shake to mix with the meat. Sprinkle with the parsley, then pour in the cream and cook for 1 minute longer. Season well before serving.'
     },
     {
+      id: 10107,
+      title: 'Porc au Cassis',
+      subtitle: 'French Pork with Blackcurrants',
+      image: '/images/porc.jpg',
+      ingredients: ['400 grams of black currants , frozen if not in season', '2 tablespoons sugar', '50 ml water', '1 tablespoon olive oil', '1 fillet of pork, trimmed of fat', 'sea ​​salt', 'black pepper , freshly ground', '60g butter', '2 apples, peeled, cored and sliced', '1 teaspoon blackcurrant jam'],
+      instructions: 'Rinse fresh black currants, remove the stems and place the berries in a small saucepan with sugar and water. Bring to the boil, lift off the heat. Let the currants drain when they have cooled a bit and save the juice. Set juice and berries aside. Heat the oil in a frying pan and fry the pork fillet on medium heat until it is golden brown all over. Season, cover and fry for another 15 minutes. Remove from the pan and let it rest. Meanwhile, heat 10g of butter in a saucepan and fry the apples gently for 10 minutes or until golden yellow. Pour the saved currant juice and jam into the pan with the meat juices, bring to the boil and simmer. Cut the rest of the butter into pieces and whisk it in while simmering until it becomes a shiny sauce. Return the blackcurrants to the pan. Slice the pork fillet and serve on a bed of apples with the blackcurrant sauce on top.'
+      },
+    {
     id: 10105,
     title: 'Beef Brisket',
     subtitle: '',
@@ -50,42 +58,42 @@ export default  [
     {
     id: 10201,
     title: 'Fetticine Carbonara',
-    subtitle: 'Easy summer diner',
+    subtitle: 'Easy summer dinner',
     image: '/images/fetticine.jpg',
-    ingredients: '1 tablespoon olive oil, 1 yellow onion, chopped, 2 garlic cloves, crushed, 4 slices bacon, fat removed and chopped into chunks, 600 ml cream, 4 eggs, 1⁄2 cup parmesan cheese, 1 teaspoon salt, pepper, 500g fettuccine pasta, 1 teaspoon oil for boiling pasta, 1 teaspoon salt for boiling pasta, parmesan cheese',
+    ingredients: ['1 tablespoon olive oil', '1 yellow onion, chopped', '2 garlic cloves, crushed', '4 slices bacon, fat removed and chopped into chunks', '600 ml cream', '4 eggs', '1⁄2 cup parmesan cheese', '1 teaspoon salt', 'pepper', '500g fettuccine pasta', '1 teaspoon oil for boiling pasta', '1 teaspoon salt for boiling pasta', 'parmesan cheese'],
     instructions: 'Place water in a large saucepan with a little oil and salt. Bring to the boil and add fettucine. Stir for a few minutes to prevent fettucine from sticking together. Meanwhile, heat oil in a saucepan and gently cook onion, garlic and bacon on medium heat until onion becomes soft being careful not to burn. In a bowl beat the eggs. Pour in cream and whisk together. Add salt and pepper and mix well. Transfer cream mixture into saucepan (off the heat) with onion, garlic and bacon and stir quickly to combine. When pasta is cooked, drain into a large serving bowl and stir in the carbonara sauce and combine well. The heat of the pasta will cook the sauce and thicken. Serve immediately with some extra parmesan cheese.'
     },
     {
     id: 10202,
-    title: '',
-    subtitle: '',
-    image: '',
-    ingredients:[],
-    instructions:''
+    title: 'Spaghetti Bolognese',
+    subtitle: 'Try lamb mince for something different',
+    image: '/images/spag.jpg',
+    ingredients:['500 grams beef mince', '1/2 onion', '3 cloves garlic', '1 cup grated carrot & zucchini', '1/2 cup beef stock', '1 400g tin chopped tomatoes', '2 TBSP tomato paste', '1 TBSP worchestershire sauce', '1 tsp sugar', '1 TBSP fresh herbs (parsley/oregano/rosemary/basil) or 1 tsp dried mixed herbs', '1/4 tsp salt (start with this and add more to taste)', '1/4 tsp black pepper (start with this and add more to taste)', '250 g dried pasta', 'Grated cheese to serve'],
+    instructions:'Finely chop the onion and crush the garlic. Heat 1 TBSP of oil in a large frying pan over a medium heat, add the onion & garlic and cook for 2 minutes until fragrant. Add the mince and cook until brown (5-10 minutes). Add the vegetables if using and cook for a further 5 minutes. Add the beef stock, tomatoes, tomato paste, Worchestershire sauce & sugar and combine. Simmer over a low heat for 15-20 minutes until the bolognese has thickened. About halfway through this cooking time give it a taste test and starting with about 1/4 tsp of salt, add salt until it is to your taste. Also add the chopped fresh or dried herbs. While bolognese is simmering, cook the spaghetti according to the package directions and grate some cheese. Drain the spaghetti, dish into bowls and top with the bolognese and grated cheese.'
     },
     {
     id: 10203,
-    title: '',
-    subtitle: '',
-    image: '',
-    ingredients:[],
-    instructions:''
+    title: 'Roasted Red Pepper Pasta',
+    subtitle: 'Add some chilli for a bit of heat',
+    image: '/images/roastedpepper.jpg',
+    ingredients:['500g boneless skinless chicken breasts , grilled and sliced', '12 oz. fettuccine', '2 Tbsp butter', '1/3 cup finely chopped shallot', '1 Tbsp minced garlic', '1 1/2 Tbsp flour', '1 1/4 cups milk', 'Salt and freshly ground black pepper', '1/4 cup heavy cream', '1 (16 oz) jar roasted red bell peppers, drained', '1/2 cup finely shredded parmesan cheese , plus more shredded or shaved for serving', '2 Tbsp each chopped fresh basil and parsley'],
+    instructions:'To grill chicken - preheat a grill to 220 C. Pound thicker parts of chicken to even thickness. Brush chicken lightly with olive oil then season both sides with salt and pepper. Brush grill grates lightly with oil and grill rotating once halfway through cooking until cooked through, about 7 - 8 minutes total. Cover with foil and let rest 5 - 10 minutes before slicing. Bring a large pot of salted water to a boil and cook pasta according to directions on package to al dente. Meanwhile, melt butter in a saute pan over medium heat. Add shallot and saute 2 minutes or until lightly golden then add garlic and saute 30 seconds longer. Add flour and cook, stirring constantly 1 minute. While whisking slowly pour in milk. Season with salt and pepper to taste and cook until it begins to thicken then reduce heat slightly, stir in cream, bell peppers and parmesan and cook just until parmesan has melted. Pour mixture into a blender, cover and blend until peppers are nearly pureed (some small chunks are fine). Return sauce to pot then add drained pasta to sauce, toss to evenly coat and heat and toss over low heat for a minute to allow some of the sauce to soak into pasta. Toss in 1 Tbsp of basil and parsley. Plate and top with grilled chicken, parmesan and remaining basil and parsley. Serve immediately.'
     },
     {
     id: 10204,
-    title: '',
-    subtitle: '',
-    image: '',
-    ingredients:[],
-    instructions:''
+    title: 'Meatballs',
+    subtitle: 'Bolognese in disguise',
+    image: '/images/meatballs.jpg',
+    ingredients:['1 tbsp oil for frying', '500 g beef mince', '1 onion, grated', '1 onion, grated', '2 tsp powdered chicken stock', '2 tsp powdered beef stock', '1 cup grated cheese', '1 cup dried bread crumbs', '1 egg, well beaten', '350-400 g Spaghetti', '1 jar pasta sa', ''],
+    instructions:'Combine the mince, onion, chicken and beef stocks, cheese, breadcrumbs and egg in a large bowl. Roll tablespoonfuls of mixture into balls and set aside. Lightly grease a fry pan with a tablespoon of oil. Fry the meatballs over medium heat, turning regularly so they brown on all sides. Cook for 15 minutes or until the meatballs are cooked through. Add the pasta sauce to the pan, and heat until sauce is simmering. Cook spaghetti as per packet instructions. Add meatballs and sauce to drained spaghetti and serve.'
     },
     {
     id: 10205,
-    title: '',
-    subtitle: '',
-    image: '',
-    ingredients:[],
-    instructions:''
+    title: 'Cheesy Sausage Pasta',
+    subtitle: 'Tastes better than it sounds',
+    image: '/images/sausage.jpg',
+    ingredients:['3 cloves of garlic', '50g  Cheddar cheese', '50g  bread', '2 teaspoons dried oregano', 'olive oil', '4 good quality sausages', '1 pinch of dried chilli flakes', '3 x 400 g tins of tomatoes', '400 g dried rigatoni'],
+    instructions:'Preheat the oven to 200ºC. Peel and finely slice the garlic. Coarsely grate the Cheddar. Tear the stale bread into small chunks or blitz in the food processor. Tip the breadcrumbs into a bowl with one of the sliced garlic cloves, a good pinch of the oregano, the grated cheese and a pinch of sea salt and a sprinkling of black pepper. Drizzle with a little oil and toss to mix it all together. Pop the sausages out of their skins and break each one into 4 equal pieces. Roll each piece into a ball shape and place in an ovenproof dish. Drizzle over a little oil and roll to coat. Bake in the oven for about 10 minutes, or until golden and cooked through. Heat a little oil in a frying pan over a medium heat. Add the remaining sliced garlic and oregano, and the chilli flakes. Stir until the garlic is coloured, then tip in the tomatoes. Add a pinch of salt and pepper, bring to the boil, then reduce the heat and simmer for 10 minutes, stirring occasionally. Cook the rigatoni according to the packet instructions, taking it off the heat 2 minutes early, so it’s al dente. Drain in a colander and tip into a large baking dish. Add the sausage balls, pour over the sauce and toss well. Sprinkle over the cheesy crumb mix and bake for 15 minutes, or until golden on top and bubbling.'
     },
     {
     id: 10206,
@@ -113,10 +121,11 @@ export default  [
     },
     {
     id: 10303,
-    title: '',
-    subtitle: '',
-    image: '',
-    instructions:''
+    title: 'Lemon Gelato',
+    subtitle: 'Worth the effort!',
+    image: '/images/gelato.jpg',
+    ingredients: [' 1 litre milk', 'Finely grated zest of 1 lemon',  '10 egg yolks, at room temperature', '220 g (1/2 cup) Caster Sugar', '125 ml (1/2 cup) strained fresh lemon juice'],
+    instructions:'Combine the milk and zest in a small saucepan and bring almost to the boil. Set aside for 10 minutes to infuse. Use an electric mixer with a whisk attachment to whisk the egg yolks and Caster Sugar in a medium bowl until thick and pale. Whisk in the milk mixture until smooth. Strain the mixture into a medium saucepan and then use a wooden spoon to stir over medium-low heat until the mixture coats the back of the spoon (do not let the mixture boil or it will curdle). Remove from the heat, cover the surface with plastic wrap and cool to room temperature. Refrigerate until cold. Stir in the lemon juice. Pour the lemon custard into an ice-cream machine and churn following the manufacturer\'s instructions. Transfer the churned gelato to an airtight container and freeze for 2 hours or until firm.'
     },
     {
     id: 10304,
@@ -127,10 +136,11 @@ export default  [
     },
     {
     id: 10305,
-    title: '',
-    subtitle: '',
-    image: '',
-    instructions:''
+    title: 'Sponge Cake',
+    subtitle: 'Never fails. Seriously, just pour custard over it...',
+    image: '/images/sponge.jpg',
+    ingredients: ['4 eggs', '1 Tbsp boiling water', '3/4 cup White Sugar', '1 Tbsp Standard Grade Flour in cup; fill up rest of 250ml cup with Cornflour', '2 tsp Baking Powder', 'Whipped cream and jam or lemon curd, to sandwich cakes together', 'Icing Sugar, to dust'],
+    instructions:'Preheat oven to 180°C bake. Line two 20cm sponge tins with baking paper. Beat 4 egg whites with 1 tablespoon of boiling water until stiff. Add sugar slowly. Beat until dissolved. Mix in yolks one at a time. Put flour in a cup, fill up the rest with cornflour. Sift into the sugar and egg mixture with baking powder. Fold in. Divide mixture between the two sponge tins and bake for 20-25 minutes. Once cooked, and while still in the tin, drop sponges from a height of 30cm onto the bench.  The sponges should then hold their height, and not go flat once cool. When cool sandwich together with cream and jam or lemon curd then dust with icing sugar.'
     },
     {
     id: 10306,
