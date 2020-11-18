@@ -175,7 +175,7 @@ export default  [
     },
     {
     id: 10404,
-    title: 'HotChocolate',
+    title: 'Hot Chocolate',
     subtitle: 'There\'s never a bad time for a hot choc',
     image: '/images/hotchoc.jpg',
     ingredients: ['2 cups whole milk', '2 tbsp sugar', '4 oz bittersweet chocolate chopped', 'splash of vanilla extract', 'whipped cream', 'marshmallows', 'chocolate powder'],

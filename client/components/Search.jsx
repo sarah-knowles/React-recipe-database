@@ -3,19 +3,28 @@ import recipedata from "../../Data/recipes";
 
 class Search extends React.Component {
   handleClick(e) {
-    //e.preventdefault()
+    let myul = document.getElementById("ulsearchresults");
+    myul.innerHTML = "";
+
     let mysearch = document.getElementById("searchterm").value.toLowerCase();
-    let results = [];
+
     if (mysearch.length == 0) return;
 
     for (let i = 0; i < recipedata.length; ++i) {
       let title = recipedata[i].title.toLowerCase();
       if (title.search(mysearch) >= 0) {
-        console.log("search match: " + title);
-        //add it to the list of search results
-        results.push(title);
+
+        //add it to the list of search results;
+        let myli = document.createElement("li");
+        myli.classList.add("recipe-list-li");
+        let mya = document.createElement("a");
+        mya.classList.add("recipe-li");
+        let mytext = document.createTextNode(recipedata[i].title);
+        mya.appendChild(mytext);
+        mya.href = "#/DisplayRecipe/" + recipedata[i].id;
+        myli.appendChild(mya);
+        myul.appendChild(myli);
       } else {
-        console.log("search NO match: " + title);
       }
     }
   }
@@ -37,30 +46,13 @@ class Search extends React.Component {
             <button
               onClick={this.handleClick}
               class="search-button"
-              type="submit"
+              type="button"
             >
               Find Food!
             </button>
           </div>
         </form>
-        <ul>
-          <li class="recipe-list-li">
-            <a class="recipe-li" href="#/DisplayRecipe/10303">
-              Lemon Gelato
-            </a>
-          </li>
-
-          <li class="recipe-list-li">
-            <a class="recipe-li" href="#/DisplayRecipe/10301">
-              Bailey's Cheesecake
-            </a>
-          </li>
-        </ul>
-        {/* <ul>
-          {results.map((title) => (
-            <li key={title}>{title}</li>
-          ))}
-        </ul> */}
+        <ul id="ulsearchresults"></ul>
       </div>
     );
   }
